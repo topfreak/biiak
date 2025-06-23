@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Warna utama terinspirasi dari gambar referensi Anda */
+  --bg-dark: #0d1b2a;       /* Biru malam yang sangat pekat untuk background utama */
+  --bg-medium: #1b263b;     /* Biru malam yang sedikit lebih terang untuk kartu/seksi */
+  --text-main: #a8b2d1;     /* Warna teks utama yang lembut (light slate) */
+  --text-heading: #e0e6f1;  /* Warna teks judul yang lebih terang */
+  --accent: #57cbcc;         /* Warna cyan yang elegan sebagai aksen utama */
+  --border-color: #415a77;  /* Warna border yang subtil */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Kelas utilitas kustom (opsional, karena kita menggunakan Tailwind) */
+.text-accent { color: var(--accent); }
+.bg-accent { background-color: var(--accent); }
+.border-accent { border-color: var(--accent); }
+.bg-medium { background-color: var(--bg-medium); }
+.bg-dark { background-color: var(--bg-dark); }
+.border-subtle { border-color: var(--border-color); }
+.text-heading { color: var(--text-heading); }
+.text-main { color: var(--text-main); }
+.text-bg-dark { color: var(--bg-dark); } /* Menambahkan kelas untuk konsistensi */
+
+
+.gradient-text-accent {
+    background: linear-gradient(90deg, var(--accent), #A5F3FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.transition-all-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
