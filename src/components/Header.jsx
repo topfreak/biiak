@@ -22,7 +22,12 @@ const Header = ({ onNavigate, currentPage }) => {
         <>
             <header className="p-6 md:p-8 fixed w-full z-40 bg-dark/80 backdrop-blur-md border-b border-subtle">
                 <nav className="container mx-auto flex justify-between items-center">
-                    <button onClick={() => handleNavClick('home')} className="text-2xl font-bold text-accent">biiak.sbs</button>
+                    {/* --- PERUBAHAN DI SINI --- */}
+                    <button onClick={() => handleNavClick('home')} className="flex items-center gap-3 text-2xl font-bold text-accent">
+                        <img src="/logo.svg" alt="biiak.sbs logo" className="h-12 w-12" />
+                        <span>biiak.sbs</span>
+                    </button>
+                    {/* --- AKHIR PERUBAHAN --- */}
                     
                     {/* Navigasi Desktop */}
                     <div className="hidden md:flex space-x-8 items-center font-semibold text-heading">
