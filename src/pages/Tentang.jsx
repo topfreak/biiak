@@ -32,13 +32,13 @@ const Tentang = () => (
                         <div className="border-t border-subtle my-4"></div>
                         <div>
                             <p className="font-bold text-main">Feb 2025 - Jul 2025</p>
-                            <h4 className="text-xl font-semibold text-heading"><strong className="text-heading">[Studi Independen]</strong> Full Stack Developer, Coding Camp 2025</h4>
+                            <h4 className="text-xl font-semibold text-heading"><strong className="text-accent">[Studi Independen]</strong> Full Stack Developer, Coding Camp 2025</h4>
                             <p className="text-main">Mengembangkan aplikasi web full-stack melalui proyek riil Agile, dari implementasi best practices hingga analisis tren fintech bersama praktisi industri.</p>
                         </div>
                         <div className="border-t border-subtle my-4"></div>
                         <div>
                             <p className="font-bold text-main">Feb 2024 - Jun 2024</p>
-                            <h4 className="text-xl font-semibold text-heading"><strong className="text-heading">[Pertukaran Mahasiswa]</strong> PMM Batch 4, Kampus Merdeka</h4>
+                            <h4 className="text-xl font-semibold text-heading"><strong className="text-accent">[Pertukaran Mahasiswa]</strong> PMM Batch 4, Kampus Merdeka</h4>
                             <p className="text-main">Mengembangkan wawasan akademis (informatika), sosial-budaya, dan jejaring profesional melalui program Pertukaran Mahasiswa Merdeka (PMM) 4 di Universitas Mataram.</p>
                         </div>
                         <div className="border-t border-subtle my-4"></div>
@@ -62,7 +62,7 @@ const Tentang = () => (
                          <div className="border-t border-subtle my-4"></div>
                          <div>
                             <p className="font-bold text-main">Feb 2021 - Aug 2021</p>
-                            <h4 className="text-xl font-semibold text-heading"><strong className="text-heading">[Magang]</strong> Network Operations Center, PT. JAYA KOMUNIKASI INDONESIA</h4>
+                            <h4 className="text-xl font-semibold text-heading"><strong className="text-accent">[Magang]</strong> Network Operations Center, PT. JAYA KOMUNIKASI INDONESIA</h4>
                             <p className="text-main">Mengelola operasional jaringan 24/7, mencakup pemantauan proaktif, troubleshooting perangkat, dan penyelesaian tiket keluhan.</p>
                         </div>
                     </div>
