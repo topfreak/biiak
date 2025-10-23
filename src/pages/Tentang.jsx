@@ -13,7 +13,7 @@ const Tentang = () => (
                         <h2 className="text-3xl font-bold text-heading">Taufiq Hidayatullah</h2>
                         <p className="text-accent font-semibold text-lg mb-2">Undergraduate Informatics Student</p>
                         <p className="text-main">
-                            Saya adalah mahasiswa Informatika Universitas AMIKOM Yogyakarta yang aktif mengembangkan keahlian di bidang pengembangan web (full-stack), analisis data, dan jaringan komputer. Memiliki pengalaman praktis sebagai Network Engineer di proyek instalasi jaringan korporat dan magang di Network Operations Center (NOC), serta sedang mengikuti program coding bootcamp di Coding Camp 2025 oleh DBS Foundation.
+                            Saya adalah mahasiswa Informatika Universitas AMIKOM Yogyakarta yang aktif mengembangkan keahlian di bidang pengembangan web (full-stack), analisis data, dan jaringan komputer. Memiliki pengalaman praktis sebagai Network Engineer di proyek instalasi jaringan korporat dan magang di Network Operations Center (NOC), serta sudah menyelesaikan program coding bootcamp di Coding Camp 2025 oleh DBS Foundation.
                         </p>
                     </div>
                 </div>
