@@ -9,7 +9,7 @@ const Karya = () => {
             category: "Internet of Things & Distributed Database",
             description: "Rancang bangun sistem monitoring korosi beton pada metode Smart Patch Repair Cathodic Protection (SPRCP) berbasis Internet of Things dan Distributed Real-Time Database untuk pemantauan struktural secara berkala dan akurat.",
             image: "https://placehold.co/600x400/1b263b/57cbcc?text=SPRCP+IoT+System",
-            githubLink: "https://github.com/topfreak",
+            githubLink: "https://github.com/topfreak/Project-Kolaborasi-Uji-Korosi-Beton-Menggunakan-IoT",
             technologies: ["IoT", "FastAPI", "Distributed Database", "Real-Time Data"]
         },
         {
