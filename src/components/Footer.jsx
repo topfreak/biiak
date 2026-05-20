@@ -20,7 +20,7 @@ const Footer = () => (
                     </svg>
                 </a>
             </div>
-            <p>&copy; 2025 Taufiq Hidayatullah. Dibuat dengan bangga oleh 'biak' Sambas.</p>
+            <p>&copy; 2026 Taufiq Hidayatullah. Dibuat dengan bangga oleh 'biak' Sambas.</p>
         </div>
     </footer>
 );

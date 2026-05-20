@@ -8,12 +8,12 @@ const Tentang = () => (
             
             <div className="bg-medium p-8 rounded-xl border border-subtle mb-12">
                 <div className="flex flex-col md:flex-row items-center gap-8">
-                     <img src="./topik.png" alt="[Foto Anda]" className="rounded-full w-32 h-32 md:w-40 md:h-40 object-cover flex-shrink-0 border-4 border-subtle" />
+                     <img src="./topik.png" alt="Taufiq Hidayatullah" className="rounded-full w-32 h-32 md:w-40 md:h-40 object-cover flex-shrink-0 border-4 border-subtle" />
                     <div>
-                        <h2 className="text-3xl font-bold text-heading">Taufiq Hidayatullah</h2>
-                        <p className="text-accent font-semibold text-lg mb-2">Undergraduate Informatics Student</p>
+                        <h2 className="text-3xl font-bold text-heading">Taufiq Hidayatullah, S.Kom.</h2>
+                        <p className="text-accent font-semibold text-lg mb-2">Informatics Graduate</p>
                         <p className="text-main">
-                            Saya adalah mahasiswa Informatika Universitas AMIKOM Yogyakarta yang aktif mengembangkan keahlian di bidang pengembangan web (full-stack), analisis data, dan jaringan komputer. Memiliki pengalaman praktis sebagai Network Engineer di proyek instalasi jaringan korporat dan magang di Network Operations Center (NOC), serta sudah menyelesaikan program coding bootcamp di Coding Camp 2025 oleh DBS Foundation.
+                            Saya adalah lulusan Informatika Universitas AMIKOM Yogyakarta yang aktif mengembangkan keahlian di bidang pengembangan web (full-stack), analisis data, dan jaringan komputer. Memiliki pengalaman praktis sebagai Network Engineer di proyek instalasi jaringan korporat dan magang di Network Operations Center (NOC), serta sudah menyelesaikan program coding bootcamp di Coding Camp 2025 oleh DBS Foundation.
                         </p>
                     </div>
                 </div>
@@ -27,7 +27,7 @@ const Tentang = () => (
                         <div>
                             <p className="font-bold text-main">2022 - 2026</p>
                             <h4 className="text-xl font-semibold text-heading">Sarjana Informatika, Universitas Amikom Yogyakarta</h4>
-                            <p className="text-main">Mata kuliah relevan: Pengembangan Full-Stack, Analisis Data, Jaringan Komputer.</p>
+                            <p className="text-main">Lulus dengan predikat Cum Laude (IPK 3.78/4.00) per 20 Mei 2026. Mata kuliah relevan: Pengembangan Full-Stack, Analisis Data, Jaringan Komputer.</p>
                         </div>
                         <div className="border-t border-subtle my-4"></div>
                         <div>

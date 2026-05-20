@@ -1,10 +1,19 @@
 import React from 'react';
 
 const Karya = () => {
-    // Data proyek-proyek yang sudah dikerjakan
+    // Data proyek-proyek yang sudah dikerjakan (DeepRetina tetap terpisah asli)
     const projects = [
         {
             id: 1,
+            name: "SPRCP",
+            category: "Internet of Things & Distributed Database",
+            description: "Rancang bangun sistem monitoring korosi beton pada metode Smart Patch Repair Cathodic Protection (SPRCP) berbasis Internet of Things dan Distributed Real-Time Database untuk pemantauan struktural secara berkala dan akurat.",
+            image: "https://placehold.co/600x400/1b263b/57cbcc?text=SPRCP+IoT+System",
+            githubLink: "https://github.com/topfreak",
+            technologies: ["IoT", "FastAPI", "Distributed Database", "Real-Time Data"]
+        },
+        {
+            id: 2,
             name: "Story Share",
             category: "Frontend Development",
             description: "Aplikasi web progresif (PWA) untuk berbagi cerita dengan lokasi menggunakan teknologi modern. Aplikasi ini memungkinkan pengguna untuk membuat, melihat, dan menyimpan cerita dengan foto dan lokasi geografis.",
@@ -14,7 +23,7 @@ const Karya = () => {
             technologies: ["JavaScript", "Webpack", "Leaflet", "MapTiler API", "Workbox"]
         },
         {
-            id: 2,
+            id: 3,
             name: "DeepRetina (Frontend)",
             category: "Frontend Development",
             description: "Deep Retina adalah platform kesehatan digital yang berfokus pada deteksi dini penyakit mata melalui teknologi kecerdasan buatan (AI) dan machine learning. Aplikasi web ini memungkinkan pengguna untuk mengunggah foto retina mata dan mendapatkan analisis otomatis untuk mendeteksi retinopati diabetik.",
@@ -24,7 +33,7 @@ const Karya = () => {
             technologies: ["JavaScript", "Webpack", "Babel", "PWA", "MVP"]
         },
         {
-            id: 3,
+            id: 4,
             name: "DeepRetina (Backend)",
             category: "Backend Development",
             description: "Backend REST API untuk sistem deteksi retinopati diabetik menggunakan deep learning. Aplikasi ini dibangun dengan FastAPI dan menggunakan model ensemble DenseNet121 + EfficientNetB0 untuk klasifikasi tingkat keparahan retinopati dari citra retina.",
@@ -33,7 +42,7 @@ const Karya = () => {
             technologies: ["FastAPI", "SQLite", "TensorFlow/Keras", "Uvicorn ASGI"]
         },
         {
-            id: 4,
+            id: 5,
             name: "SnapLah (Landing Page)",
             category: "Frontend Development",
             description: "Snaplah adalah aplikasi web modern yang memungkinkan Anda membuat photostrip kreatif layaknya di studio foto, langsung dari browser Anda. Pilih frame favorit, berpose dengan timer, dan bagikan hasilnya dalam hitungan menit!",
@@ -43,7 +52,7 @@ const Karya = () => {
             technologies: ["React", "Vite", "Tailwind CSS", "Lucide"]
         },
         {
-            id: 5,
+            id: 6,
             name: "Bookshelf API",
             category: "Backend Development",
             description: "RESTful API sederhana untuk mengelola koleksi buku menggunakan Hapi.js framework. API ini dibuat sebagai submission untuk kelas Belajar Back-End Pemula dengan JavaScript.",
@@ -52,7 +61,7 @@ const Karya = () => {
             technologies: ["Node.js", "Hapi.js", "nanoid", "JavaScript"]
         },
         {
-            id: 6,
+            id: 7,
             name: "To-Do List App",
             category: "Fullstack Development",
             description: "Todo App adalah aplikasi web modern yang memungkinkan Anda mengelola tugas harian dengan mudah dan efisien, langsung dari browser Anda. Tambahkan task baru, tandai sebagai selesai, edit atau hapus tugas, dan pantau progres Anda dalam satu interface yang clean dan responsif!",
